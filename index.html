@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book & Movie Haven</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="_css-assets/styles.css">
+</head>
+<body>
+
+    <!-- ============================================================ -->
+    <!-- HEADER / NAVIGATION                                          -->
+    <!-- LO13: Pseudo-selectors for navigation links                  -->
+    <!-- LO14/LO15: Positioning with sticky/fixed                     -->
+    <!-- ============================================================ -->
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>📚 Book & Movie Haven</h1>
+                <p class="tagline">Your guide to the best stories</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- HERO SECTION                                                -->
+    <!-- LO11: Decoration (background, shadow, text-shadow)           -->
+    <!-- LO14/LO16: Layout (flexbox for centering)                   -->
+    <!-- ============================================================ -->
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Discover Your Next Favourite Story</h2>
+                <p>From page-turning novels to blockbuster films — we've got you covered.</p>
+                <a href="#books" class="btn-primary">Explore Books</a>
+                <a href="#movies" class="btn-secondary">Explore Movies</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BOOKS SECTION                                               -->
+    <!-- LO11: Decorative styling (cards, shadows, border-radius)     -->
+    <!-- LO12: Typography (font sizes, weights, spacing)              -->
+    <!-- LO14/LO15: Positioning (cards in a grid)                    -->
+    <!-- ============================================================ -->
+
+    <section id="books" class="books">
+        <div class="container">
+            <h2 class="section-title">📖 Featured Books</h2>
+            <p class="section-subtitle">Handpicked recommendations for every reader</p>
+
+            <div class="book-grid">
+
+                <!-- Book Card 1 -->
+                <div class="card">
+                    <div class="card-image book-1"></div>
+                    <div class="card-content">
+                        <h3>The Alchemist</h3>
+                        <p class="author">by Paulo Coelho</p>
+                        <p class="description">A magical journey of self-discovery and following your dreams.</p>
+                        <div class="card-footer">
+                            <span class="rating">★★★★☆</span>
+                            <a href="#" class="card-link">Read Review →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 2 -->
+                <div class="card">
+                    <div class="card-image book-2"></div>
+                    <div class="card-content">
+                        <h3>Dune</h3>
+                        <p class="author">by Frank Herbert</p>
+                        <p class="description">An epic sci-fi masterpiece set on the desert planet Arrakis.</p>
+                        <div class="card-footer">
+                            <span class="rating">★★★★★</span>
+                            <a href="#" class="card-link">Read Review →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 3 -->
+                <div class="card">
+                    <div class="card-image book-3"></div>
+                    <div class="card-content">
+                        <h3>Atomic Habits</h3>
+                        <p class="author">by James Clear</p>
+                        <p class="description">Transform your life with small, powerful daily habits.</p>
+                        <div class="card-footer">
+                            <span class="rating">★★★★☆</span>
+                            <a href="#" class="card-link">Read Review →</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- MOVIES SECTION                                              -->
+    <!-- LO11: Decorative styling (cards, shadows, border-radius)     -->
+    <!-- LO12: Typography (font sizes, weights, spacing)              -->
+    <!-- LO14/LO15: Positioning (cards in a grid)                    -->
+    <!-- ============================================================ -->
+
+    <section id="movies" class="movies">
+        <div class="container">
+            <h2 class="section-title">🎬 Must-Watch Movies</h2>
+            <p class="section-subtitle">Films that will stay with you long after the credits roll</p>
+
+            <div class="movie-grid">
+
+                <!-- Movie Card 1 -->
+                <div class="card">
+                    <div class="card-image movie-1"></div>
+                    <div class="card-content">
+                        <h3>Inception</h3>
+                        <p class="director">by Christopher Nolan</p>
+                        <p class="description">A mind-bending heist film set inside the world of dreams.</p>
+                        <div class="card-footer">
+                            <span class="rating">★★★★★</span>
+                            <a href="#" class="card-link">Watch Trailer →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 2 -->
+                <div class="card">
+                    <div class="card-image movie-2"></div>
+                    <div class="card-content">
+                        <h3>Spirited Away</h3>
+                        <p class="director">by Hayao Miyazaki</p>
+                        <p class="description">A young girl discovers a magical world of spirits and adventure.</p>
+                        <div class="card-footer">
+                            <span class="rating">★★★★★</span>
+                            <a href="#" class="card-link">Watch Trailer →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 3 -->
+                <div class="card">
+                    <div class="card-image movie-3"></div>
+                    <div class="card-content">
+                        <h3>The Shawshank Redemption</h3>
+                        <p class="director">by Frank Darabont</p>
+                        <p class="description">A powerful story of hope and friendship in the darkest places.</p>
+                        <div class="card-footer">
+                            <span class="rating">★★★★★</span>
+                            <a href="#" class="card-link">Watch Trailer →</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- ABOUT SECTION                                               -->
+    <!-- LO12: Typography                                            -->
+    <!-- LO14/LO15: Positioning                                      -->
+    <!-- ============================================================ -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Book & Movie Haven is your trusted source for honest reviews, recommendations, and literary and cinematic inspiration. We believe every story has the power to change lives.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Books Reviewed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">Movies Reviewed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Readers & Viewers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CONTACT SECTION                                             -->
+    <!-- LO13: Pseudo-selectors on buttons                            -->
+    <!-- LO14/LO15: Positioning of form elements                     -->
+    <!-- ============================================================ -->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a book or movie recommendation? We'd love to hear from you!</p>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="4" placeholder="Tell us your favourite book or movie..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER                                                     -->
+    <!-- LO14/LO15: Positioning                                      -->
+    <!-- LO13: Pseudo-selectors on footer links                      -->
+    <!-- ============================================================ -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>📚 Book & Movie Haven</h4>
+                    <p>Your guide to the best stories.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#books">Books</a></li>
+                        <li><a href="#movies">Movies</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <ul class="social-links">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Book & Movie Haven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

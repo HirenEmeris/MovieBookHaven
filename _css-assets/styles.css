@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 400px;
+    background: #f9f9f9;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #3498DB;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.static {
+    position: static;
+    background: #3498DB;
+}
+
+/* .relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: #2ECC71;
+} */
